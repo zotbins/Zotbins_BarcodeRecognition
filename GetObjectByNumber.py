@@ -2,7 +2,7 @@ import requests
 import json
 
 #number must be a string
-def identifyObjectByNumber(number):
+def getObjectByNumber(number):
     url = "https://api.barcodespider.com/v1/lookup"
 
     querystring = {"upc":number}
@@ -23,3 +23,7 @@ def identifyObjectByNumber(number):
 
     #print(itemName)
     return (itemName)
+
+#test
+#myNum = '49000052350'
+#print(getObjectByNumber(myNum))

@@ -7,5 +7,5 @@ def getInstructionsByImage(file):
     return (instructions)
 
 #test
-myFile = 'barcode_img(test)/test4.jpg'
-print(getInstructionsByImage(myFile))
+#myFile = 'barcode_img(test)/test4.jpg'
+#print(getInstructionsByImage(myFile))
